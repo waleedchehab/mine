@@ -1,0 +1,86 @@
+@media (max-width:600px) {
+    .grid-container {
+        grid-template-columns: 50px 1fr 1fr 1fr;
+    }
+
+
+    /* =========== sidebar ============ */
+    aside {
+        width: 50px;
+        transition: var(--trans);
+    }
+
+    .menu .logo {
+        opacity: 1;
+    }
+
+
+    .menubar {
+        display: flex;
+        opacity: 1;
+    }
+
+
+    /* =============== header ================= */
+    .head-cont p {
+        font-size: 0.8rem;
+    }
+
+    .head-cont .logo {
+        /* opacity: 1; */
+        display: flex;
+    }
+
+    .home-cont h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-cont h1 span {
+        font-size: 3rem;
+    }
+
+    .proj .info {
+        bottom: -80%;
+    }
+
+
+    /* ============== skills ============= */
+    .skills {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+    }
+
+
+
+
+
+
+
+
+    /* ================= packages ============== */
+
+}
+
+
+
+
+
+
+@media (max-width: 990px) {
+    .port-cont {
+        flex-direction: column;
+    }
+
+    .proj .info {
+        bottom: -75%;
+    }
+
+    .pack-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pack-cont .pack {
+        width: 90%;
+    }
+}

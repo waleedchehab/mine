@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 20px 0;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.container {
+    padding: 0 5%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.btn-prim {
+    width: 100px;
+    border-radius: 5px;
+    background-color: var(--btn-prim-color);
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    padding: 5px;
+    cursor: pointer;
+    transition: var(--trans);
+}
+
+.btn-prim a {
+    color: white;
+}
+
+.btn-prim:hover {
+    background-color: transparent;
+    outline: 3px solid var(--btn-prim-color);
+    color: var(--btn-prim-color);
+}
+
+.btn-prim:hover a {
+    color: var(--btn-prim-color);
+}
